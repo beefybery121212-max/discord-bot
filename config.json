@@ -1,0 +1,6 @@
+{
+  "token": "YOUR_BOT_TOKEN",
+  "welcome_channel_id": null,
+  "admin_role_id": null,
+  "mod_role_id": null
+}

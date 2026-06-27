@@ -4,7 +4,7 @@ import aiosqlite
 import asyncio
 from datetime import datetime
 
-TOKEN = MTUxOTcxMzg3MTc5Mzc1MDEyNg.GvLhlW.art3ZHDQZzmPtHe_5JF-2NGAd26uTt-lRF8R40
+TOKEN = MTUxOTcxMzg3MTc5Mzc1MDEyNg.Ghm1cL.Q3JZ1Vi1ap4v0d_ZVjbQkG7aSgvPNFPfj-ALFc
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="!", intents=intents)

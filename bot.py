@@ -1,8 +1,5 @@
 import discord
 from discord.ext import commands, tasks
-import aiosqlite
-import asyncio
-from datetime import datetime
 
 
 intents = discord.Intents.all()

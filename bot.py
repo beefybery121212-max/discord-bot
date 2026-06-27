@@ -1,10 +1,7 @@
 import discord
-from discord.ext import commands, tasks
-import aiosqlite
-import asyncio
-import datetime
+from discord.ext import commands
+from discord import app_commands
 
-TOKEN = "YOUR_BOT_TOKEN_HERE"
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="!", intents=intents)

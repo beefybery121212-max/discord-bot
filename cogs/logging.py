@@ -1,0 +1,13 @@
+import discord
+from discord.ext import commands
+
+class Logging(commands.Cog):
+    def __init__(self, bot):
+        self.bot = bot
+
+    @commands.Cog.listener()
+    async def on_message_delete(self, message):
+        pass  # Logging functionality
+
+def setup(bot):
+    bot.add_cog(Logging(bot))
